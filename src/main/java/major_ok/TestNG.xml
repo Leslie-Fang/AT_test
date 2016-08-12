@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1"    verbose="1" >
+    <test name="Regression1"   preserve-order="true">
+        <parameter name="name" value="leslie"/>
+        <classes>
+
+
+            <!-- <class name="major_ok.test_suit_class">
+             </class>
+
+             <class name="major_ok.Before_test">
+             </class>
+
+             <class name="major_ok.testcase_test">
+                 <methods>
+                     <include name="first_test"/>
+                 </methods>
+             </class>-->
+
+            <!--change the test class name-->
+            <!--<class name="major_ok.ResourceVisibility_ChangeHistory_FilterSearch">
+               <methods>
+                     <include name="checkgetdataby_locationfilter"/>
+                     <include name="checkgetdataby_resourcefilter"/>
+                     <include name="checkgetdataby_calendarfilter"/>
+                     <include name="Table_view_sort_filter"/>
+               </methods>
+           </class>-->
+
+            <!--change the test class name-->
+          <!--<class name="major_ok.MovingStock_TableView">
+             <methods>
+                 <include name="check_overview"/>
+                 <include name="check_LR_filter"/>
+                 <include name="check_filter_by"/>
+                 <include name="check_facet_filter"/>
+                 <include name="check_Column_Setting_Button"/>
+                 <include name="Check_Planned_Stops_display"/>
+                 <include name="Check_stock_hyperlink_display"/>
+                 <include name="LoadAndDischarg_Overview"/>
+                 <include name="check_LR_filter_for_LoadAndDischarg"/>
+                 <include name="check_facet_filter_LoadAndDischarge"/>
+                 <include name="Freight_Order_hyperlink_LoadAndDischarge"/>
+             </methods>
+          </class>-->
+            <!-- <class name="major_ok.ChangeHistory">
+                 <methods>
+                     <include name="checkGetDataByLocationFilter"/>
+                     <include name="checkGetDataByResourceFilter"/>
+                     <include name="checkGetDataByCalendarFilter"/>
+                     <include name="tableViewSortFilter"/>
+         </methods>
+     </class>-->
+
+            <!-- <class name="major_ok.MovingStock">
+               <methods>
+                   <include name="checkOverview"/>
+                   <include name="checkLRFilter"/>
+                   <include name="checkFilterBy"/>
+                   <include name="checkFacetFilter"/>
+                   <include name="checkColumnSettingButton"/>
+                   <include name="checkPlannedStopsDisplay"/>
+                   <include name="checkStockHyperlinkDisplay"/>
+                   <include name="loadAndDischargeOverview"/>
+                   <include name="checkLRFilterForLoadAndDischarge"/>
+                   <include name="checkFacetFilterLoadAndDischarge"/>
+                   <include name="freightOrderHyperlinkLoadAndDischarge"/>
+               </methods>
+           </class>-->
+
+
+           <class name="major_ok.MovingStock">
+                <methods>
+                    <include name="checkColumnSettingButton"/>
+                </methods>
+            </class>
+
+                   <!--<class name="major_ok.CostModels_View">
+                       <methods>
+                            <include name="check_CostModels_Maintable"/>
+                       </methods>
+                   </class>-->
+
+            <!--<class name="RESTful_TEST.RESTfulAPI">
+                <methods>
+                    <include name="TestRESTfulAPI"/>
+                </methods>
+            </class>-->
+
+   </classes>
+ </test>
+ </suite>
